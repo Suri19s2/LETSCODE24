@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia e Descriptografia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Criptografia e Descriptografia</h1>
+    </header>
+    
+    <main>
+        <section class="input-section">
+            <textarea id="input-text" placeholder="Digite o texto aqui..."></textarea>
+            <div class="buttons">
+                <button id="encrypt-button">Criptografar</button>
+                <button id="decrypt-button">Descriptografar</button>
+                <button id="copy-button">Copiar</button>
+            </div>
+            <p id="validation-message">Letras maiúsculas e caracteres especiais não serão aceitos.</p>
+        </section>
+        
+        <section class="output-section">
+            <h2>Texto Resultante</h2>
+            <textarea id="output-text" readonly></textarea>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Projeto criado por [Seu Nome] - [Ano]</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
